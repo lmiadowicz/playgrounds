@@ -6,5 +6,6 @@
 - CSS
 
 # Screenshot
+![Social Media Editor](socialeditor.gif)
 
 
