@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a,
+a:visited {
+    color: black;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    font-family: Impact, sans-serif;
+}
+
+.container {
+    position: relative;
+    height: 80vh;
+    width: 40vw;
+    transform: translate(70%, 10%);
+    background-image: url(https://cdn.freecodecamp.org/curriculum/css-cafe/beans.jpg);
+    background-repeat: no-repeat;
+    top: 50px;
+    left: 50px;
+}
+
+main {
+    position: absolute;
+    background-color: #deb887;
+    top: 10%;
+    left: 10%;
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: center;
+    padding: 0 30px;
+}
+
+.main__company {
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.main__established {
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.main__line {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-top: 4px solid #000;
+    width: 100%;
+    border-color: rgb(165, 42, 42);
+}
+
+.main__coffee {
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.menu__item {
+    margin-top: 5px;
+    font-family: sans-serif;
+    font-size: 1.25 rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.menu__item:first-child {
+    margin-top: 10px;
+}
+
+.coffee__image {
+    margin-top: 10px;
+}
+
+.main__dessert {
+
+}
+
+.dessert__image {
+    margin-top: 10px;
+}
+
+footer {
+    margin-top: 10px;
+    font-family: sans-serif
+}
+
+.footer__link {
+    margin-bottom: 10px;
+}
+
+
